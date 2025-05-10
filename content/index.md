@@ -1,6 +1,16 @@
 ---
-title: Welcome to Quartz Update
+title: 👋 Welcome
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Hello.. Myself [Jetlee](https://in.linkedin.com/in/jetleejoy), this is a github hosted page, 
+created with [Quartz](https://quartz.jzhao.xyz/).  
+
+Updates to this space are infrequent, but I'll do my best to maintain a pattern. No promises, though!😉
+
+---
+
+Structure of the space
+
+- [[ seedbank | Seed Bank ]] : Notes releated to areas that capture my intreset.  
+
+
