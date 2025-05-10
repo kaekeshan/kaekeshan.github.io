@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Kaekeshan's Udyan",
+    pageTitle: "ആരാമം",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -23,8 +23,8 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "M PLUS Rounded 1c",
-        body: "Oxygen",
+        header: "Inconsolata",
+        body: "Inconsolata",
         code: "Source Code Pro",
       },
       colors: {
@@ -36,19 +36,19 @@ const config: QuartzConfig = {
           dark: "#2C2C2C",
           secondary: "#6E4EAC",
           tertiary: "#7F69AC",
-          highlight: "#6D54A0",
-          textHighlight: "#9781C4",
+          highlight: "#6d54a05c",
+          textHighlight: "#afafaf",
         },
         darkMode: {
-          light: "#2C2C2C",
-          lightgray: "#8D8091",
+          light: "#0e071291",
+          lightgray: "#323232a3",
           gray: "#6B6B6B",
           darkgray: "#E8E8E8",
           dark: "#D1D1D1",
-          secondary: "#6E4EAC",
-          tertiary: "#7F69AC",
-          highlight: "#6D54A0",
-          textHighlight: "#9781C4",
+          secondary: "#d59af7",
+          tertiary: "#6b676db8",
+          highlight: "#282828a3",
+          textHighlight: "#2f1464c4",
         },
       },
     },
