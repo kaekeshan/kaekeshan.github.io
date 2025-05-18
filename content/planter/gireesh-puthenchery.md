@@ -1,6 +1,6 @@
 ---
 title: Puthenchery Lyrics
-tags: [seed, collection]
+tags: [collection, music]
 ---
 I'm a fan of Lyricist Gireesh Puthenchery and this is an effort to combine all his lyrics available on public domains. 
 

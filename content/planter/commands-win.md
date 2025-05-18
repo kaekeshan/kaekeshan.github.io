@@ -1,7 +1,7 @@
 ---
 title: Windows CLI 
 description: Space to note down useful cmd & powershell commads
-tags: [seed, dev, pwsh, cmd]
+tags: [collection, dev, pwsh, cmd]
 ---
 
 <details>
@@ -60,6 +60,7 @@ del $FILE_NAME
 
 #### Paths
 
+
 <!-- case 1 -->
 
 <details>
@@ -69,5 +70,29 @@ del $FILE_NAME
 (Get-Location).Path | Set-Clipboard
 ```
 </details>
+
+#### Files
+
+<!-- case 1 -->
+
+<details>
+<summary> Copy the a file </summary>  
+
+```bash
+Copy-Item -Path <source> -Destination <destination>
+```
+</details>
+
+<!-- case 2 -->
+
+<details>
+<summary> Remove the a file </summary>  
+
+```bash
+Remove-Item -Path "C:\path\to\your\file.txt"
+```
+</details>
+
+
 
 </details>
