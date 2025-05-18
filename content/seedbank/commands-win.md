@@ -1,7 +1,7 @@
 ---
-title: Windows System Commands, Variables and Operations
+title: Windows CLI 
 description: Space to note down useful cmd & powershell commads
-tags: [seed, note, dev, pwsh, cmd]
+tags: [seed, dev, pwsh, cmd]
 ---
 
 <details>
@@ -57,5 +57,17 @@ del $FILE_NAME
 
 <details>
 <summary>PowerShell</summary>
+
+#### Paths
+
+<!-- case 1 -->
+
+<details>
+<summary> Copy the current directory path </summary>  
+
+```bash
+(Get-Location).Path | Set-Clipboard
+```
+</details>
 
 </details>

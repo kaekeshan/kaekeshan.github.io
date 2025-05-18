@@ -1,6 +1,6 @@
 ---
-title: GitHub Multiple Accounts in One Device
-tags: ["github", "pwsh", "dev", "seed", "note"]
+title: GitHub Multi-Login
+tags: ["github", "dev", "seed" ]
 ---
 
 Reference - [fromDev2Dev](https://www.youtube.com/watch?v=Fyfp0oEWD6w&ab_channel=fromDev2Dev)
@@ -59,7 +59,6 @@ Add the private keys to SSH authentication service
 ```bash
 ssh-add ~/.ssh/id_25519_test
 ssh -Tv github.test // use the host used within .config file, T option is to diable terminal session, v - verbose
-
 ```
 ### Add .gitconfig file account
 
@@ -93,16 +92,14 @@ Create the .gitconfig-test file under home directory (~)
 	email = secondary email address
 [core]
     sshCommand = "ssh -i ~/.ssh/id_25519_test"
-
 ```
 ### Validate the configs
 
-Go to the gitdir defined within the ~\.gitconfig for the secondary account
-clone a repository using SSH
+Go to the gitdir defined within the ~\.gitconfig for the secondary account  
+Clone a repository using SSH
 
 ```bash
 git clone git@host-name:account/repo.git
-
 ```
 >[!info] repeat for all user accounts
 
@@ -111,5 +108,4 @@ To edit an existing configuration for an already cloned repo
 ```bash
 git remote get-url origin
 git remote set-url origin github.test/account/repo.git
-
 ```
