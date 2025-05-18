@@ -1,5 +1,5 @@
 ---
-title: Front-End
+title: Tech 
 ---
 
 This space is dedicated to front-end technologies and related frameworks.
