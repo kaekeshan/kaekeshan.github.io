@@ -1,5 +1,6 @@
 ---
-title: HTML - Hyper Text Markup Language
+title: HTML
+description: Hyper Text Markup Language
 draft: false
 tags: [seed, dev, note]
 ---
