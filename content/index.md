@@ -11,6 +11,5 @@ Updates to this space are infrequent, but I'll do my best to maintain a pattern.
 
 Structure of the space
 
-- [[ seedbank | Seed Bank ]] : Notes releated to areas that capture my intreset.  
-
-
+- [[ Seedbank | Seeds ]] : Notes releated to areas that capture my intreset.  
+- [[ Planter | Pots ]] : Collections of lyrics, commands, definitions etc. 
