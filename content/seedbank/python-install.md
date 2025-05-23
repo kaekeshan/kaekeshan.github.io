@@ -27,12 +27,10 @@ Create a python virtual environment for the project
 cd D:\projects\python\project1
 
 D:\python\3.13.3\python -m venv environment_name
-
 ```
 This will create a python virtual environment under project1 that depends on python 3.13.3 version only. 
 
->[!info] irtual environments in Python are like isolated workspaces where you can install dependencies without affecting the system-wide Python installation or other projects.
-> They help manage different versions of libraries and prevent conflicts between projects.
+>[!info] Virtual environments in Python are like isolated workspaces where you can install dependencies without affecting the system-wide Python installation or other projects.
 
 ### Activiate The Virual Environment
 
@@ -42,7 +40,6 @@ Validate if the virutal environment is created or not by using the tree command
 cd D:\projects\python\project1
 
 tree
-
 ```
 If environment is created, activate the environment using the activate script
 
@@ -50,7 +47,6 @@ If environment is created, activate the environment using the activate script
 cd D:\projects\python\project1
 
 environment_name\Scripts\activate
-
 ```
 Once activated, check if python is active within the environment
 
